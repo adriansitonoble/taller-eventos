@@ -1,0 +1,9 @@
+#miDiv {
+   font-size: xx-large;
+   float: right ;
+   padding: 5px;
+   background-color: green;
+}
+#miDiv button {
+    background-color: red;
+}

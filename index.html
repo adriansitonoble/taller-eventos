@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>taller-evento</title>
+    <script src="eventos.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body>
+    <div id="miDiv" onclick="showAlert()">
     <button id="boñato" onclick="myFunction()">Saludar</button>
+</div>
  <script>
+
 const bot =     document.getElementById("boñato");
 
 bot.addEventListener("click", () =>{
     alert("¡Hola!");
 });
 
- </script>
+</script>
+
 </body>
+
 </html>
